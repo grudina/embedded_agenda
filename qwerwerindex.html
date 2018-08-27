@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SDK</title>
+    <!-- <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">  -->
+    <!-- <script type="text/javascript" src="lib/ethjs.min.js"></script> -->
+    <script type="text/javascript" src="lib/ethjs.js"></script>
+    <script type="text/javascript" src="lib/bn.js"></script>
+    <script type="text/javascript" src="contracts.js"></script>
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js" ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id='zapBalance'></div>
+        <form id="eth_form">
+            <div>
+                <label for="eth_input">enter amount of ETH for Zap Faucet</label>
+                <div>
+                    <input id="eth_input" type="number"  >
+                    <button id='submit' type='submit'>submit eth</button>
+                </div>
+            </div>
+        </form>
+        <br>
+        <form id="bond_form">
+            <div>
+                <label for="bond_input">enter amount of bond for Zap bound</label>
+                <div>
+                    <input id="bond_input" type="number"  >
+                    <button id='bond_submit' type='submit'>submit bound</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

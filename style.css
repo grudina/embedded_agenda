@@ -1,0 +1,50 @@
+#eth_form{
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#eth_form label{
+  font-size: 21px;
+  line-height: 26px;
+}
+
+#eth_input{
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 10 0 0;
+  padding: 10px;
+}
+
+#eth_form button{
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  padding: 10px;
+}
+
+#bond_form{
+  display: none;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#bond_form label{
+  font-size: 21px;
+  line-height: 26px;
+}
+
+#bond_input{
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 10 0 0;
+  padding: 10px;
+}
+
+#bond_form button{
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  padding: 10px;
+}
